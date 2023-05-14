@@ -1,5 +1,5 @@
+//Note: if the user inputs and empy string on any of the question, the app will return an empty string
 // Function that returns a license badge based on which license is passed in
-// If there is no license, it returns an empty string
 function renderLicenseBadge(license) {
   if (license !== `None`) {
     return `https://img.shields.io/badge/license-${license}-green)`;
@@ -8,8 +8,7 @@ function renderLicenseBadge(license) {
   }
 }
 
-// Function that returns the license link
-// If there is no license, it returns an empty string
+// Returns the license link
 function renderLicenseLink(license) {
   if (license === `Apache2.0`) {
     return `https://opensource.org/licenses/Apache-2.0`;
@@ -21,7 +20,6 @@ function renderLicenseLink(license) {
 }
 
 // Function that returns the license section of README
-// If there is no license, it returns an empty string
 function renderLicenseSection(license) {
   if (license) {
     return `[![Project license](${renderLicenseBadge(

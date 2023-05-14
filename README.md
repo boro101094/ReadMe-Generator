@@ -17,7 +17,7 @@ This project was created so the user is able to generate professional README.md 
 To install this project the user will need to have Node.js installed, as well as inquirer, which can be downloaded in the terminal using node itself. Once that’s done the user will need to clone this repo and run index.js from the terminal.
 
 ## Usage
-This project can be used to create a README.md file for any project the user may have. As an example, this README.MD file was created using the README generator itself. For a video on how to use the application and how the application works please click on the following link: https://drive.google.com/drive/folders/1Tu1qh4AVz--mWdsYB87FavKag3RG7dmx
+This project can be used to create a README.md file for any project the user may have. As an example, this README.MD file was created using the README generator itself. For a video on how to use the application and how the application works please click on the following link: [https://drive.google.com/drive/folders/1Tu1qh4AVz--mWdsYB87FavKag3RG7dmx](https://drive.google.com/file/d/1MoPx-s0mXj5H_X8K3D1IHTLXr1ceQNHv/view?usp=share_link)
 
 ## License
 
